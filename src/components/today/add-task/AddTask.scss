@@ -1,0 +1,197 @@
+.add-task-container {
+    // background: yellow;
+    height: 100%;
+    width: 25vw;
+    margin: 0 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.5rem;
+    background: rgb(241, 240, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+
+    input {
+        width: 100%;
+        height: 17%;
+        margin: 1rem 0;
+        border-radius: 0.5rem;
+        outline: none;
+        background: transparent;
+        border: 1px solid rgb(223, 220, 220);
+        font-family: "Poppins", sans-serif;
+
+    }
+
+    textarea {
+        width: 100%;
+        border-radius: 0.5rem;
+        outline: none;
+        background: transparent;
+        border: 1px solid rgb(223, 220, 220);
+        font-family: "Poppins", sans-serif;
+
+
+    }
+
+    h2 {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        svg{
+          cursor: pointer;
+        }
+    }
+
+    .list,
+    .date {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        // gap: 2rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+        // background: yellow;
+    }
+
+    .btn {
+        // background: yellow;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin: 3rem 0;
+        .dlt{
+            width: 10vw;
+            background: rgb(235, 11, 11);
+        }
+        .dlt:hover{
+            background: transparent;
+            color: rgb(235, 11, 11);
+            border: 1px solid rgb(235, 11, 11);
+        }
+
+        .save{
+            background: rgb(62, 197, 62);
+        }
+        .save:hover{
+            background: transparent;
+            color: rgb(62, 197, 62);
+            border: 1px solid rgb(62, 197, 62);
+        }
+    }
+
+    .list button
+     {
+        margin-left: 0;
+        width: 15vw;
+        border: 1px solid rgb(223, 220, 220);
+        outline: none;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 0.9rem;
+        font-weight: 400;
+
+        svg {
+            color: rgb(202, 198, 198);
+        }
+    }
+
+    .date button {
+        margin-left: 0;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    ul {
+        width: 15vw;
+        list-style: none;
+        padding: unset;
+        margin: 0;
+        // background: yellow;
+      }
+      
+      li {
+        // background: red;
+        width: 85%;
+        padding: 1rem 1rem;
+        transition: all linear 0.3s;
+      }
+      
+    //   li:hover {
+    //     width: 85%;
+    //     background: gray;
+    //     cursor: pointer;
+    //     color: #fff;
+    //   }
+
+      .list-personal:hover{
+        background: rgb(244, 144, 144);
+      }
+
+      .list-work:hover{
+        background: rgb(183, 237, 241);
+      }
+      
+      .dropdown-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        background: transparent;
+        box-shadow: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
+        transition: all linear 0.3s;
+        margin: 0;
+        padding: 0;
+      }
+
+      .options{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: end;
+
+      }
+
+      .date-picker{
+        // background: red;
+        margin-left: 3rem;
+        height: 4vh;
+        width: 14vw;
+        border: 1px solid rgb(223, 220, 220);
+        outline: none;
+        border-radius: 0.5rem;
+        // background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 0.9rem;
+        font-weight: 400;
+        padding: 0.5rem;
+
+        svg{
+            color: rgb(202, 198, 198);
+        }
+      }
+      .selected-date{
+        background: transparent;
+        border: none;
+        outline: none;
+        height: 100%;
+        // width: ;
+
+      }
+
+}
